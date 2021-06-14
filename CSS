@@ -1,0 +1,225 @@
+ <style>
+        body{
+            box-sizing: border-box;
+            border: 4px solid black;
+            background-color: seashell;
+            padding: 5px;
+            
+        }
+        main {
+    flex: 100%;
+    background-color: white;
+    
+  }
+  
+   section:nth-child(even) {
+    background-color: #f7f7f7;
+  }
+  
+  section {
+    text-align: center;
+    height: 100%;
+    padding: 75px 0px;
+    min-height: 40vh;
+  }
+       
+     
+        img{
+            border: 2px solid goldenrod;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            float: left;
+        }
+        
+  nav {
+    display: flex;
+    background-color: #333;
+    align-items: center;
+  }
+  
+     nav a:hover{
+          color: darkblue;
+     }
+        video{
+            border: 4px solid goldenrod;
+            
+        }
+        .banner{
+          background-image: url(logo/coollogo_com-129982418.gif);
+          height: 20vw;
+          min-width: 100%;
+          background-repeat: no-repeat;
+          background-position: top ;
+          background-size: 50%;
+          background-attachment: fixed;
+
+        }
+        header{
+          background-color: rgb(19, 18, 18);
+        }
+        iframe{
+            border: 2px solid black;
+        }
+        
+        h3{
+            color: goldenrod;
+        }
+        section {
+         text-align: center;
+         height: 100%;
+         padding: 75px 0px;
+         min-height: 40vh;
+        }
+  
+         section h2 {
+         margin-bottom: 50px;
+        }
+  
+         section h2 span {
+         padding: 10px 55px;
+          border-radius: 20px;
+        color: #fff;
+         background: #120f5e;
+       
+         background: linear-gradient(to right, #f5d837, #bbb812);
+         
+         }
+         .profile_img {
+    border-radius: 50%;
+  }
+  .profile_name {
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 0px;
+  }
+  
+  .about_content {
+    justify-content: center;
+    color: #1c1a3a;
+    font-weight: 900;
+    padding-bottom: 10px 0px 20px 0px;
+  }
+  
+  .about_title {
+    font-size: 1.45em;
+    padding: 0px 10px;
+    color: #120f5e;
+  }
+  .about_us {
+    margin: 50px;
+  }
+  
+  .fa-youtube {
+    color: #e62117;
+  }
+  
+  .founder {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .sm-handle {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sm-handle a {
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px 10px;
+    background-color: rgb(125 125 125 / 25%);
+    text-decoration: none;
+  }
+  
+  .sm-handle a:hover {
+    background-color: rgb(30 30 30 / 25%);
+  }
+  
+  .sm-handle a i {
+    margin: 5px;
+  }
+  
+  .yt_handle {
+    color: #e62117;
+  }
+  
+  .linkdn_handle {
+    color: #0e76a8;
+  }
+  
+  .insta_handle {
+    color: #dd2a7b;
+  }
+  
+  .img-responsive {
+    max-width: 100vh;
+    height: 100vh;
+  }
+  .carousel-cell {
+    width: 66%;
+    margin-right: 10px;
+    counter-increment: carousel-cell;
+  }
+  
+  .carousel-cell video {
+    max-width: 100%;
+  }
+  footer {
+    display: flex;
+    overflow: hidden;
+   
+    background-color: black;
+    
+  }
+  footer a {
+    float: left;
+    
+    display: block;
+   
+    color: white;
+    
+    text-align: center;
+    
+    padding: 14px 20px;
+   
+    text-decoration: none;
+    
+  }
+  footer a:hover{
+    color: darkblue;
+  }
+  
+  .copyright {
+    color: #fff;
+    
+    margin-left: auto;
+    padding-right: 15px;
+  }
+   
+  .flex-align-left {
+    margin-left: auto;
+  }
+  @media screen and (max-width: 700px) {
+    footer,
+    .sm-handle,
+    nav {
+      flex-direction: column;
+      padding: 10px 0px;
+    }
+  
+    .flex-align-left {
+      margin-left: 0;
+    }
+  }
+  h4{
+    font-family: pacifico;
+    color:black;
+  }
+    
+        
+    </style>
